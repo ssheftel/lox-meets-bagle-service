@@ -50,8 +50,8 @@ def remove_lines(file, bad_lines):
 
 
 def copy_frountend():
-    fe_dir = '/Users/sam/GoogleDrive/CodeAndDev/lox-meets-bagel-web/www'
-    dest_dir = '/Users/sam/GoogleDrive/CodeAndDev/lox-meets-bagel-service/app/static_content_1_0/app'
+    fe_dir = '/lox-meets-bagel-web/www'
+    dest_dir = '/lox-meets-bagel-service/app/static_content_1_0/app'
     index_file = os.path.join(dest_dir, 'index.html')
     delete_lines = ['    <script src="http://localhost:8001/target/target-script-min.js"></script>\n','    <script src="cordova.js"></script>\n']
     try:
